@@ -1,7 +1,7 @@
 {
     "configurations": [
         {
-            "name": "Linux",
+            "name": "Pi5",
             "includePath": [
                 "${workspaceFolder}/**",
                 "/usr/src/linux-headers-6.6.31+rpt-rpi-2712/include",
@@ -11,7 +11,8 @@
             "compilerPath": "/usr/bin/gcc",
             "cStandard": "c17",
             "cppStandard": "gnu++17",
-            "intelliSenseMode": "linux-gcc-arm64"
+            "intelliSenseMode": "linux-gcc-arm64",
+            "configurationProvider": "ms-vscode.makefile-tools"
         }
     ],
     "version": 4
